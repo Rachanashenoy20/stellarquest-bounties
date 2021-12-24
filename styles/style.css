@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.heading{
+    color:rgb(43, 43, 43);
+}
+.wallet-buttons{
+    width: 200px;
+}
+th {
+    color: rgb(43, 43, 43);
+    width: 300px;
+    text-align: center;
+}
+td {
+    color: rgb(43, 43, 43);
+}
