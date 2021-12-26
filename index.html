@@ -132,7 +132,7 @@
                         .then(result => {
                             console.log(result);
                             html = '<h5>Created At: ' + result._embedded.records[0].created_at + '</h5>'
-                            html += '<h5>Created By: ' + result._embedded.records[0].funder + '</h5><br>'
+                            html += '<h5 style="color:black>Created By: ' + result._embedded.records[0].funder + '</h5><br>'
                             document.getElementById('accountDetails').innerHTML += html;
 
                         });
